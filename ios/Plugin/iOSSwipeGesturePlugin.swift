@@ -7,12 +7,13 @@ import Capacitor
  */
 @objc(iOSSwipeGesturePlugin)
 public class iOSSwipeGesturePlugin: CAPPlugin {
-    private let implementation = iOSSwipeGesture()
+    @objc func enable(_ call: CAPPluginCall) {
+        self.bridge.webView?.allowsBackForwardNavigationGestures = true
+        call.resolve()
+    }
 
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
-        call.resolve([
-            "value": implementation.echo(value)
-        ])
+    @objc func disable(_ call: CAPPluginCall) {
+        self.bridge.webView?.allowsBackForwardNavigationGestures = false
+        call.resolve()
     }
 }
