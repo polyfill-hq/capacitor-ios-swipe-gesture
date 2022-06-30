@@ -8,6 +8,7 @@ import com.getcapacitor.annotation.CapacitorPlugin;
 
 @CapacitorPlugin(name = "iOSSwipeGesture")
 public class iOSSwipeGesturePlugin extends Plugin {
+
     @PluginMethod
     public void enable(PluginCall call) {
         call.unimplemented("Not implemented on Android.");
