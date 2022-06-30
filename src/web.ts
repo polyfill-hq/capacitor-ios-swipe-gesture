@@ -5,8 +5,11 @@ import type { iOSSwipeGesturePlugin } from './definitions';
 export class iOSSwipeGestureWeb
   extends WebPlugin
   implements iOSSwipeGesturePlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  async enable(): Promise<void> {
+    throw this.unimplemented('Not implemented on web.');
+  }
+
+  async disable(): Promise<void> {
+    throw this.unimplemented('Not implemented on web.');
   }
 }
