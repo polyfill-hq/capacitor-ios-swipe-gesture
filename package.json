@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JBreidfjord/capacitor-ios-swipe-gesture.git"
+    "url": "https://github.com/JBreidfjord/capacitor-ios-swipe-gesture.git"
   },
   "bugs": {
     "url": "https://github.com/JBreidfjord/capacitor-ios-swipe-gesture/issues"
