@@ -1,6 +1,6 @@
 {
   "name": "capacitor-ios-swipe-gesture",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Handles enabling / disabling the iOS back swipe gesture",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
