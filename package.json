@@ -1,6 +1,6 @@
 {
   "name": "@polyfillhq/capacitor-ios-swipe-gesture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handles enabling / disabling the iOS back swipe gesture",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorIosSwipeGesture.podspec"
+    "PolyfillhqCapacitorIosSwipeGesture.podspec"
   ],
   "author": "Jonathan Breidfjord <jbreidfjord@gmail.com>",
   "license": "MIT",
